@@ -19,6 +19,11 @@ $ ./hosts2surge.php /path/to/hosts
 ```bash
 $ ./ipv6_hosts_generator.sh
 ```
+or
+```bash
+$ ./ipv4_hosts_generator.sh
+```
+
 
 ## 使用条款
 

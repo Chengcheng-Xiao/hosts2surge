@@ -1,0 +1,3 @@
+# ignore LAB files,
+LAB/
+# except foo.html which is maintained by hand
