@@ -12,7 +12,7 @@ tr -d "$(printf '\015')" < hosts.tmp.1 > hosts.tmp.2
 
 echo "Generating IPV6 hosts config file"
 ./hosts2surge.php hosts.tmp.2
-tr -d "$(printf '\015')" < hosts.conf > hosts_$(date +%Y-%m-%d).conf
+tr -d "$(printf '\015')" < hosts.conf > hosts_ipv6_$(date +%Y-%m-%d).conf
 
 echo "cleaning up"
 rm hosts *tmp* hosts.conf

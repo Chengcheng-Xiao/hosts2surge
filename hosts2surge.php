@@ -1214,6 +1214,10 @@ DOMAIN-SUFFIX,zhstatic.zhihu.com,REJECT
 DOMAIN,clickhz.meizu.com,REJECT
 DOMAIN,tongji.meizu.com,REJECT
 
+# PROXY
+PROCESS-NAME,Twitter,PROXY
+DOMAIN-KEYWORD,twitter,PROXY,force-remote-dns
+
 # IQIYI
 IP-CIDR,112.13.64.0/22,REJECT,no-resolve
 IP-CIDR,112.253.36.0/24,REJECT,no-resolve

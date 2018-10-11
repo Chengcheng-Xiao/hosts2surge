@@ -1,3 +1,4 @@
 # ignore LAB files,
 LAB/
+*.conf
 # except foo.html which is maintained by hand
